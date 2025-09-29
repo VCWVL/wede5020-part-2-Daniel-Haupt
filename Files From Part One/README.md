@@ -9,23 +9,14 @@ I've created the website over the past months August and September. I have been 
 Link to GitHub -> 
 
 
-Code
 
-Changes:
+
+ChangeLog:
 
 Added JS and Images in File structure 
-
-WEVDEVPOESPARTONE.pdf
-
-Changes:
-
 Added maintenance costs
-
-WEVDEVPOESPARTONE2.pdf
-
-Changes:
-
 Added strenghts to the Current Analysis
+
 
 Referencing from the main website:
 
