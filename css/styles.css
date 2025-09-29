@@ -16,3 +16,7 @@ body {
     font-size: 11px;
   }
 }
+
+body {
+  background-color: #f0f0f0; /* replace with your desired color */
+}
