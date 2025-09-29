@@ -47,7 +47,7 @@ main {
   }
   :active{
   background-color: #555;
-}
+  }
   box-shadow: #a0a0a0 0px 4px 8px;
   letter-spacing: normal;
   max-width: 1200px;
