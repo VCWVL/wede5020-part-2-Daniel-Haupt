@@ -1,5 +1,6 @@
 /* Global font and base styles */
 body {
+  text-align: center;
   font-family: 'Aptos', sans-serif; 
   font-size: 16px;
   line-height: 1.5;
@@ -31,7 +32,12 @@ nav a:hover {
   text-decoration: underline;
 }
 main {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f4f4f4;
   padding: 15px;
+  border-radius: 8px;
+  text-align: center;
 }
 
 /* Code that will make it so that everything scales with the device being used */
