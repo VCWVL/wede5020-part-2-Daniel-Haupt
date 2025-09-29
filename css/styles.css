@@ -1,8 +1,8 @@
 /* CSS Reset */
 ::before,
 ::after {
-  margin: 5px;
-  padding: 5px;
+  margin: 5px;      
+  padding: 5px;      
   box-sizing: border-box;
 }
 
@@ -14,25 +14,25 @@ nav a:active {
   text-decoration: underline;
 }
 
-
 /* Global font and base styles */
 body {
   flex-direction: column;
   text-align: center;
   font-family: 'Aptos', sans-serif; 
-  font-size: 16px;
+  font-size: 1rem;         
   line-height: 1.5;
   color: #000000; 
-  margin: 10px 20px; 
+  margin: 10px 20px;
   padding: 0;
   background-color: #899269; 
 }
+
 /* Navigation tab */
 nav {
   background-color: #6e2222; 
-  padding: 10px 0;
+  padding: 10px 0;     
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
   justify-content: center;
   align-items: center;
   grid-template-areas: inherit;
@@ -41,27 +41,31 @@ nav a {
   font-weight: bold;
   color: rgb(252, 58, 58);
   text-decoration: none;
-  margin: 0 15px;
+  margin: 15px;     
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;         
   font-family: 'Aptos', sans-serif;
   background-color: #333; 
-  padding: 8px 12px;
-  border-radius: 4px;
+  padding: 8px 12px;   
+  border-radius: 4px;  
 }
 nav a:hover {
   text-decoration: underline;
 }
+
 main {
-  box-shadow: #a0a0a0 0px 4px 8px;
+  box-shadow: #a0a0a0 0px 5px 10px 0px;
   letter-spacing: normal;
-  max-width: 1200px;
+  max-width: 90%;
+  min-width: 300px;            
+  max-height: 90%;            
   margin: 0 auto;
   background-color: #f0cece;
-  padding: 15px;
-  border-radius: 8px;
+  padding: 10px;
+  border-radius: 5px;
   text-align: center;
 }
+
 
 hr {
   background-color: black;
@@ -69,10 +73,10 @@ hr {
 
 /* Code that will make it so that everything scales with the device being used */
 @media (min-width: 650px) {
-      body {
-        padding: 40px;
-      }
-    }
+  body {
+    padding: 2.5rem;       
+  }
+}
 @media (min-width: 950px) {
   main {
     display: flex;
@@ -81,12 +85,12 @@ hr {
 }
 @media (max-width: 650px) {
   body {
-    font-size: 14px; 
+    font-size: 14px;   
   }
 }
 @media (max-width: 450px) {
   nav a {
     display: block;
-    margin: 10px 0;
+    margin: 10px;   
   }
 }
