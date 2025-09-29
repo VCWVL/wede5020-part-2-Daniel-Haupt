@@ -1,9 +1,19 @@
-/* CSS Reset to enable consistent styling*/
+/* CSS Reset */
 ::before,
 ::after {
   margin: 5px;
   padding: 5px;
   box-sizing: border-box;
+}
+
+/* Psuedo classes */
+nav a:hover,
+nav a:focus,
+nav a:active {
+  background-color: #555;
+  text-decoration: underline;
+}
+
 
 /* Global font and base styles */
 body {
@@ -39,15 +49,6 @@ nav a:hover {
   text-decoration: underline;
 }
 main {
-  :hover {
-    background-color: #555; 
-  }
-  :focus{
-  background-color: #555; 
-  }
-  :active{
-  background-color: #555;
-  }
   box-shadow: #a0a0a0 0px 4px 8px;
   letter-spacing: normal;
   max-width: 1200px;
@@ -80,5 +81,4 @@ main {
     display: block;
     margin: 10px 0;
   }
-}
 }
