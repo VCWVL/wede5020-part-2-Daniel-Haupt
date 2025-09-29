@@ -59,6 +59,13 @@ main {
   text-align: center;
 }
 
+hr {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 20px 0;
+  background-color: black;
+}
+
 /* Code that will make it so that everything scales with the device being used */
 @media (min-width: 650px) {
       body {
