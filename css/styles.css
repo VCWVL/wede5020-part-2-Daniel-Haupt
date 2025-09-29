@@ -7,11 +7,11 @@ body {
   color: #111; 
   margin: 10px 20px; 
   padding: 0;
-  background-color: #6d7453; 
+  background-color: #899269; 
 }
 /* Navigation tab */
 nav {
-  background-color: #383030; 
+  background-color: #6e2222; 
   padding: 10px 0;
   text-align: center;
   margin-bottom: 20px;
@@ -34,7 +34,7 @@ nav a:hover {
 main {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #f4f4f4;
+  background-color: #f0cece;
   padding: 15px;
   border-radius: 8px;
   text-align: center;
