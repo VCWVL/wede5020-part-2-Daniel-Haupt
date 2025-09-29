@@ -1,0 +1,18 @@
+/* Global font */
+body {
+  font-family: 'Aptos';   
+  font-size: 16px;
+  line-height: 1.6;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+
+/* Text changes depending on resoultion (device used) */
+@media (max-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+}
